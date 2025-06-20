@@ -52,8 +52,10 @@ pip install -r requirements.txt
 4. Set Up Environment Variables
 
 Create a .env file in the project root with the following:
+
 OPENAI_API_KEY=your_openai_api_key
 MONGODB_URI=your_mongodb_connection_uri (optional)
+
 💡 You can use any LLM provider (e.g., OpenAI, Cohere, Hugging Face) supported by LangChain.
 
 🚀 Running the Chatbot
@@ -62,6 +64,7 @@ streamlit run streamlit.py
 This will launch the chatbot in your browser.
 
 🧪 Sample Usage
+
 Type a message like:
 
 "What is LangChain?"
@@ -75,7 +78,10 @@ And get a smart answer based on the LLM (and optionally your documents).
 ├── requirements.txt
 ├── .env                  # Environment config
 ├── README.md
+
+
 🧠 Tech Stack
+
 Python 3.9+
 
 Streamlit – frontend UI
@@ -89,6 +95,7 @@ OpenAI / Hugging Face – LLM provider
 dotenv – for secret config
 
 📌 To Do
+
  Add vector store integration (e.g. FAISS or MongoDB Atlas Vector Search)
 
  Export chat history
@@ -96,6 +103,7 @@ dotenv – for secret config
  Add source document highlighting
 
 🙌 Acknowledgments
+
 LangChain
 
 Streamlit
